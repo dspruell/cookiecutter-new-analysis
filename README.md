@@ -25,3 +25,17 @@ default_context:
     username: "phead"
 ```
 
+After running cookiecutter and changing the value of any defaults at the
+prompts, a directory structure is created (by default, a datestamped slug of
+the project name):
+
+```
+20210617-example_threat_research/
+├── README.md
+├── files
+├── pcaps
+└── rules
+    ├── nids
+    ├── sigma
+    └── yara
+```
