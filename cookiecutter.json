@@ -1,6 +1,7 @@
 {
   "project_name": "My new analysis project research",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('/', '_').replace(\"'\", '').replace('\"', '') }}",
+  "project_path": "{% now 'local', '%Y%m%d' %}-{{cookiecutter.project_slug}}",
   "username": "{{ username |default('myname') }}",
   "analysis_type": ["simple", "malicious_traffic_distribution"]
 }
