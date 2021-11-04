@@ -2,7 +2,6 @@
 ## Analysis:   {{ cookiecutter.project_name }}
 ## Created by: {{ cookiecutter.username }}
 ## Date:       {% now 'local', '%Y-%m-%d %H:%M:%S %Z' %}
-
 ```
 
 ## Summary
