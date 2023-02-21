@@ -1,4 +1,4 @@
-# new-analysis
+# cookiecutter-new-analysis
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for
 creating new analysis session bundles. An analysis bundle is simply a directory
 containing a textual notes file and other files (organized into subdirectories)
@@ -13,7 +13,7 @@ observations during analysis of a security threat.
 Basic usage, after installing Cookiecutter:
 
 ```
-cookiecutter gh:dspruell/new-analysis
+cookiecutter gh:dspruell/cookiecutter-new-analysis
 ```
 
 It can be helpful to populate defaults in a Cookiecutter configuration file
